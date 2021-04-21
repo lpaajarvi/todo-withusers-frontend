@@ -1,3 +1,5 @@
+I didn't want to reuse code from the previous todo-app, so I could see what I can come up with from scratch.
+
 Uses MERN:
 <ul>
  <li>MongoDB Atlas (in cloud) as database</li>
