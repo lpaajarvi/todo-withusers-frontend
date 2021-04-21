@@ -1,6 +1,6 @@
 Uses MERN:
 <ul>
- <li>MongoDB Atlas (in cloud) as databse</li>
+ <li>MongoDB Atlas (in cloud) as database</li>
  <li>Node.Js/Express as Backend</li>
  <li>React.js as Frontend</li>
 </ul>
