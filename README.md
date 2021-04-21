@@ -25,27 +25,27 @@ go back to c:/test/ or equivalent
 
 <br/>
 
-**_git clone https://github.com/lpaajarvi/todo-withusers-frontend_**
+### `git clone https://github.com/lpaajarvi/todo-withusers-frontend`
 <br />
 
-**_cd todo-withusers-frontend npm install_**
+### `cd todo-withusers-frontend npm install`
 <br />
 
 You should open 2 different terminals. One keeping the backend localhost server up, and the other keeping the frontend localhost up. run 
 
-**_npm start_**
+###`npm start`
 
  in each terminals in the folders that were just created, for example  
 
-**_cd c:\test\todo-withusers-backend_**
+###`cd c:\test\todo-withusers-backend`
 <br/>
-**_npm start_**
+###`npm start`
 
 And then in another terminal  
 
-**_
-cd c:\test\todo-withusers-frontend
-npm start__*
+
+###`cd c:\test\todo-withusers-frontend`
+###`npm start`
 
 Browser should open now and go to the locally hosted web app. If it doesn't, you can enter http://localhost:3000/ in your browser  While the server and website are running locally, the database is in the mongoDb cloud.
 
