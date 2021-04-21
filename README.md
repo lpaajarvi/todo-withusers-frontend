@@ -1,8 +1,8 @@
 Uses MERN:
-<p>
--MongoDB Atlas (in cloud) as databse
--Node.Js/Express as Backend
--React.js as Frontend
+<ol>
+ <li>MongoDB Atlas (in cloud) as databse</li>
+ <li>Node.Js/Express as Backend</li>
+ <li>React.js as Frontend</li>
 </p>
 <p>
 Password authentication is not fully secure, but I wanted to think of a logic of my own in MongoDB before I start using ready-made packages for it. 
