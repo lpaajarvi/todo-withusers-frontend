@@ -38,7 +38,6 @@ You should open 2 different terminals. One keeping the backend localhost server 
  in each terminals in the folders that were just created, for example  
 
 ### `cd c:\test\todo-withusers-backend`
-<br/>
 ### `npm start`
 
 And then in another terminal  
