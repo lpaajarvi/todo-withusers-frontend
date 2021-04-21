@@ -3,7 +3,7 @@ Node packet manager can be installed from https://nodejs.org/en/
 Open your preferred terminal (for example cmd in Windows) go to directory where you want this installed, for example c:/test/ in terminal type: 
 <p>
 
-git clone https://github.com/lpaajarvi/todo-withusers-backend 
+**_git clone https://github.com/lpaajarvi/todo-withusers-backend _**
 <br />
 
 **_cd todo-withusers-backend npm install_**
@@ -14,7 +14,7 @@ git clone https://github.com/lpaajarvi/todo-withusers-backend
 rename toBeRenamed.txt to a file called \".env\" without a body. For example in windows cmd: 
 
 <p>
-copy toBeRenamed.txt .env   
+**_copy toBeRenamed.txt .env   _**
 </p>
 
 <p>
@@ -23,25 +23,28 @@ go back to c:/test/ or equivalent
 </p>
 
 <br/>
-`
-git clone https://github.com/lpaajarvi/todo-withusers-frontend `
+
+**_git clone https://github.com/lpaajarvi/todo-withusers-frontend_**
 <br />
-`
-cd todo-withusers-frontend npm install    `
+
+**_cd todo-withusers-frontend npm install_**
 <br />
 
 You should open 2 different terminals. One keeping the backend localhost server up, and the other keeping the frontend localhost up. run 
 
-npm start
+**_npm start_**
 
  in each terminals in the folders that were just created, for example  
 
-cd c:\test\todo-withusers-backend
-npm start  
+**_cd c:\test\todo-withusers-backend_**
+<br/>
+**_npm start_**
 
 And then in another terminal  
 
-cd c:\test\todo-withusers-frontend npm start
+**_
+cd c:\test\todo-withusers-frontend
+npm start__*
 
 Browser should open now and go to the locally hosted web app. If it doesn't, you can enter http://localhost:3000/ in your browser  While the server and website are running locally, the database is in the mongoDb cloud.
 
