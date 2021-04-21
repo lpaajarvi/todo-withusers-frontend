@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import SignPage from './SignPage'
+import TodoPage from './TodoPage'
+import NavBar from './NavBar'
 
-function App() {
+import { createMuiTheme } from '@material-ui/core/styles'
+
+import './styles.css'
+
+export default function App() {
+  const [userId, setUserId] = useState(
+    localStorage.getItem('userIdInLocalStorage') || ''
+  )
+  const [email, setEmail] = useState(
+    localStorage.getItem('emailInLocalStorage') || ''
+  )
+
+  React.useEffect(() => {
+    localStorage.setItem('userIdInLocalStorage', userId)
+  }, [userId])
+
+  React.useEffect(() => {
+    localStorage.setItem('emailInLocalStorage', email)
+  }, [email])
+
+  const theme = createMuiTheme({
+    palette: {
+      primary: { main: '#444D63' },
+    },
+  })
+
+  useEffect(() => {
+    // console.log(email)
+  }, [email])
+
+  const userLoginHandler = (newId, newEmail) => {
+    if (newId !== undefined) {
+      setUserId(newId)
+    }
+    if (newEmail !== undefined) {
+      setEmail(newEmail)
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/*<span>{userLoginInfo.id}</span>*/}
+      {userId === '' ? (
+        <SignPage userLoginHandler={userLoginHandler} theme={theme} />
+      ) : (
+        <>
+          <NavBar email={email} userLoginHandler={userLoginHandler} />
+          <TodoPage userId={userId} email={email} />
+        </>
+      )}
+    </>
+  )
 }
-
-export default App;
