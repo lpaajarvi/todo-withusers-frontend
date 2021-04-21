@@ -3,7 +3,7 @@ Node packet manager can be installed from https://nodejs.org/en/
 Open your preferred terminal (for example cmd in Windows) go to directory where you want this installed, for example c:/test/ in terminal type: 
 <p />
 
-###`git clone https://github.com/lpaajarvi/todo-withusers-backend`
+### `git clone https://github.com/lpaajarvi/todo-withusers-backend`
 <br />
 
 ### `cd todo-withusers-backend`
