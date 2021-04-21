@@ -33,19 +33,19 @@ go back to c:/test/ or equivalent
 
 You should open 2 different terminals. One keeping the backend localhost server up, and the other keeping the frontend localhost up. run 
 
-###`npm start`
+### `npm start`
 
  in each terminals in the folders that were just created, for example  
 
-###`cd c:\test\todo-withusers-backend`
+### `cd c:\test\todo-withusers-backend`
 <br/>
-###`npm start`
+### `npm start`
 
 And then in another terminal  
 
 
-###`cd c:\test\todo-withusers-frontend`
-###`npm start`
+### `cd c:\test\todo-withusers-frontend`
+### `npm start`
 
 Browser should open now and go to the locally hosted web app. If it doesn't, you can enter http://localhost:3000/ in your browser  While the server and website are running locally, the database is in the mongoDb cloud.
 
