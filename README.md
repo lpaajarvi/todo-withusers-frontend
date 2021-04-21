@@ -1,20 +1,20 @@
 If you don't already have node packet manager and git installed, please install them first.   
 Node packet manager can be installed from https://nodejs.org/en/    
 Open your preferred terminal (for example cmd in Windows) go to directory where you want this installed, for example c:/test/ in terminal type: 
-<p>
+<p />
 
 **_git clone https://github.com/lpaajarvi/todo-withusers-backend _**
 <br />
 
 **_cd todo-withusers-backend npm install_**
 
-</p>
+
 
 
 rename toBeRenamed.txt to a file called \".env\" without a body. For example in windows cmd: 
 
 <p>
-**_copy toBeRenamed.txt .env   _**
+### copy toBeRenamed.txt .env 
 </p>
 
 <p>
