@@ -6,7 +6,8 @@ Open your preferred terminal (for example cmd in Windows) go to directory where 
 ###`git clone https://github.com/lpaajarvi/todo-withusers-backend`
 <br />
 
-### `cd todo-withusers-backend npm install`
+### `cd todo-withusers-backend`
+### `npm install`
 
 
 
