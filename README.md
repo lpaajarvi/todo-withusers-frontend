@@ -1,3 +1,11 @@
+Uses MERN:
+-MongoDB Atlas (in cloud) as databse
+-Node.Js/Express as Backend
+-React.js as Frontend
+
+Password authentication is not fully secure, but I wanted to think of a logic of my own in MongoDB before I start using ready-made packages for it. 
+<hr/ >
+
 User accounts that have access to the app (these are in a collection in mongodb Atlas:
 
 <ol>
@@ -6,12 +14,7 @@ User accounts that have access to the app (these are in a collection in mongodb 
 <li> email: `third@another.com` password: `thirdpass`</li>
 </ol>
 
-Uses MERN:
--MongoDB Atlas (in cloud) as databse
--Node.Js/Express as Backend
--React.js as Frontend
 
-Password authentication is not fully secure, but I wanted to think of a logic of my own in MongoDB before I start using ready-made packages for it. 
 
 
 <h3>Install instructions:</h3>
