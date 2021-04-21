@@ -12,8 +12,7 @@ Open your preferred terminal (for example cmd in Windows) go to directory where 
 
 
 
-rename toBeRenamed.txt to a file called \".env\" without a body. For example in windows cmd: In other systems cp instead of copy.
-
+rename toBeRenamed.txt to a file called \".env\" without a body. For example in windows cmd. (cp instead of copy in linux) 
 
 ### `copy toBeRenamed.txt .env`
 
