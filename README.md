@@ -1,10 +1,13 @@
 Uses MERN:
+<p>
 -MongoDB Atlas (in cloud) as databse
 -Node.Js/Express as Backend
 -React.js as Frontend
-
+</p>
+<p>
 Password authentication is not fully secure, but I wanted to think of a logic of my own in MongoDB before I start using ready-made packages for it. 
-<hr/ >
+</p>
+
 
 User accounts that have access to the app (these are in a collection in mongodb Atlas:
 
