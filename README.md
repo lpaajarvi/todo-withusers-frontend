@@ -1,3 +1,6 @@
+<h2>App is deployed in Heroku: https://todo-with-users-lauri.herokuapp.com/</h2>
+
+ 
 I didn't want to reuse code from the previous todo-app, so I could see what I can come up with from scratch.
 
 Uses MERN:
@@ -22,7 +25,7 @@ User accounts that have access to the app (these are in a collection in mongodb 
 
 
 
-<h3>Install instructions:</h3>
+<h3>Local Install instructions:</h3>
 
 If you don't already have node packet manager and git installed, please install them first.   
 Node packet manager can be installed from https://nodejs.org/en/    
